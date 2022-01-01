@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="/css/portal.css">
+		<title>传送门-Casodo Media Studio</title>
+		<script type="text/javascript">
+		     var mobileAgent = new Array("iphone", "ipod", "ipad", "android", "mobile", "blackberry", "webos", "incognito", "webmate",
+		         "bada", "nokia", "lg", "ucweb", "skyfire");
+		     var browser = navigator.userAgent.toLowerCase();
+		     var isMobile = false;
+		     for (var i=0; i<mobileAgent.length; i++) {
+		         if (browser.indexOf(mobileAgent[i])!=-1) {
+		             isMobile = true;
+		             location.href = '/portal_m.html';
+		             break;
+		         }
+		     }
+		 </script>
+	</head>
+	<body>
+		<div id="top"><a href="/index.html"><img alt="Logo" id="toplogo"  src="/img/casodologo_logo1x1small.png"></a></div>
+		<a href="/usp.html" class="back">
+			<h1 class="text"><span>我们的成员</span></h1>
+		</a>
+		<a href="/announcement/index.html" class="back">
+			<h1 class="text"><span>完整公告</span></h1>
+		</a>
+		<a href="/old/index_.html" class="back">
+			<h1 class="text"><span>老的网站V1</span></h1>
+		</a>
+		<a href="/index_old.html" class="back">
+			<h1 class="text"><span>老的网站V2</span></h1>
+		</a>
+		<a href="/Resource/index.html" class="back">
+			<h1 class="text"><span>CMS资源站</span></h1>
+		</a>
+	</body>
+</html>

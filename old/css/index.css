@@ -1,0 +1,96 @@
+
+ #logo {
+         height: 90px;
+         width: 360px;
+     background-color: rgba(255,255,255,0);
+ }
+
+#container {
+    text-align:center;
+}
+.up {
+    height: 100px;
+    width: border-box;
+    display: flex;
+    align-items: center;
+    border-bottom: lightgray 1px solid;
+    margin-bottom: 10px;
+}
+ .but {
+      border: rgba(255,255,255,0) solid 30px;
+      color: black;
+  }
+.butbox{
+    width: 200px;
+    height: 90px;
+    background-color: #eeeeee;
+    border-radius: 6px;
+    text-align: center;
+    display: flex;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    color: black;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    float: right;
+    margin: 10px 15px 0px 0px;
+    flex-direction: column;
+    box-shadow: 5px 5px 5px 0px #959595;
+}
+
+.backbut {
+    width: 200px;
+    height: auto;
+    flex-direction: column;
+    float: right;
+}
+ .butbox:hover {
+     margin-right: 70px;
+     transition-duration: 0.4s;
+ }
+.rbox {
+    margin: 0px 0px 0px 8px;
+}
+.backgrund {
+    width: 90%;
+    height: 120px;
+    background-color: #eeeeee;
+    border-radius: 30px;
+    margin-left: 65px;
+    justify-content: center;
+    display: flex;
+    box-shadow: 9px 9px 9px 0px #959595;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+ a {
+     text-decoration:none;
+ }
+ body {
+     margin: unset;
+ }
+ #CT1 {
+     font-size: 30px;
+     display: flex;
+     margin-top: 38px;
+ }
+ #logosmall {
+     width: 80px;
+     height: 80px;
+     margin-right: 8px;
+     margin-top: 18px;
+ }
+ .button {
+     background-color: #7f8c8d;
+     width: 10%;
+     height: 10%;
+ }
+ canvas {
+     display: block;
+     margin: 0 auto;
+     z-index: -1;
+     position : absolute;
+     width: 100%;
+     height: 100%;
+ }

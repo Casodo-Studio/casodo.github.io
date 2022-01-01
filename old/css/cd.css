@@ -1,0 +1,43 @@
+#logo {
+    height: 100px;
+    width: 400px;
+}
+
+#container {
+    text-align:center;
+}
+.up {
+    height: 100px;
+    width: border-box;
+    display: flex;
+    align-items: center;
+    border-bottom: lightgray 1px solid;
+    margin-bottom: 10px;
+}
+body {
+    margin: unset;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+.but {
+    border: white solid 30px;
+    color: black;
+}
+.back {
+    width: 290px;
+    height: 130px;
+    background-color: rgba(0, 0, 0, 0.07);
+    display: inline-flex;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.24);
+    margin: 0px 30px 30px 8px;
+    transition-duration: 0.2s;
+}
+.head {
+    float: left;
+    display: flex;
+    margin: 10px;
+    font-size: 70px;
+}

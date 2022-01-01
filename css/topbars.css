@@ -1,0 +1,17 @@
+#top {
+    height: 50px;
+    width: 100%;
+    border-bottom: lightgray 1px solid;
+    margin-bottom: 10px;
+    background-color: #000000;
+    position: static;
+	align-items: center;
+	justify-content: center;
+}
+#toplogo {
+	height: 100%;
+	width: auto;
+}
+body {
+	margin: unset;
+}

@@ -1,0 +1,16 @@
+.back {
+    width: 300px;
+    height: 90px;
+    background-color: rgba(0,0,0,0.07);
+    display: inline-flex;
+    border-radius: 5px;
+    margin: 6px 6px 6px 6px;
+    transition-duration: 0.25s;
+}
+.back:hover {
+	background-color: #42c7ff;
+	box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.24);
+}
+.head {
+	
+}

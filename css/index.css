@@ -1,0 +1,93 @@
+@font-face {
+    font-family: font;
+    src: url("/font/Hel.ttf");
+}
+#background {
+    width: 87%;
+    height: 1000px;
+    background-color: #eeeeee;
+    border-radius: 30px;
+    margin-top: 70px;
+    justify-content: center;
+    align-items: center;
+    margin-left: fill;
+    margin-right: fill;
+}
+#top {
+    height: 50px;
+    width: 100%;
+    align-items: center;
+    border-bottom: lightgray 1px solid;
+    margin-bottom: 10px;
+    background-color: #000000;
+    position: fixed;
+}
+#logo_ {
+    height: 50px;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+}
+#logo {
+    width: 45px;
+    height: 45px;
+}
+.top-button {
+    border: rgba(255,255,255,0) solid 30px;
+    color: black;
+    justify-content: center;
+}
+#vid {
+    border-radius: 30px;
+}
+#subbut {
+    width: 70%;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: #0f80ff;
+    border-radius: 90px;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 27%;
+    transition-duration: 0.5s;
+}
+#subbut:hover {
+    transition-duration: 0.3s;
+    width: 80%;
+    margin-left: 10%;
+    background-color: lightgray;
+    color: black;
+}
+#barr {
+    width: 100%;
+    height: 55%;
+    background: url("/img/backg.png") fixed center;
+    border-radius: 30px;
+    background-size: 100% auto;
+}
+#CMS {
+    color: white;
+    font-size: 60px;
+    margin:0px 21% auto 21%;
+    font-family: font;
+    padding-top: 5%;
+}
+body {
+    justify-content: center;
+    display: flex;
+    margin: unset;
+}
+canvas {
+    display: block;
+    z-index: -1;
+    margin: 0 auto;
+    position : fixed;
+    width: 100%;
+    height: 100%;
+}
+a {
+    color: #eeeeee;
+    text-decoration: unset;
+}
