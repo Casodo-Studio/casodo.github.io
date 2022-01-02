@@ -1,5 +1,4 @@
 html {
-	/* filter: grayscale(1); */
 	line-height: 1.15;
 	-ms-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%
@@ -1507,7 +1506,7 @@ label {
 
 .hero {
 	position: relative;
-	padding-top: 50%;
+	padding-top: 88px;
 	text-align: center;
 	z-index: 0
 }
@@ -1571,8 +1570,6 @@ label {
 
 	.hero-inner {
 		display: flex
-		align-items: center;
-		justify-content: center;
 	}
 
 	.hero-copy {

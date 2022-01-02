@@ -3,8 +3,9 @@
     src: url("/font/comfortaa.ttf");
 }
 body {
-	max-width: 80%;
-    box-shadow: 5px 5px 5px 0px rgba(255,255,255,80);
+	max-width: 90%;
+	margin: 0 auto;
+	box-shadow: 0 16px 48px rgba(32, 41, 50, 0.12)
 }
 #logo {
     width: 100%;
