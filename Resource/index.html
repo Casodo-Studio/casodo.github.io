@@ -9,12 +9,13 @@
 	     var browser = navigator.userAgent.toLowerCase();
 	     var isMobile = true;
 	     for (var i=0; i<mobileAgent.length; i++) {
-	         if (!browser.indexOf(mobileAgent[i])!=-1) {
-	             isMobile = false;
+	         if (browser.contains(mobileAgent[i].toLowerCase())) {
+	             isMobile = true;
 	             location.href = '/Resource/Desktop/index.html';
 	             break;
 	         }
 	     }
+		 if(!isMobile) location.href = '/Resource/Desktop/index.html';
 	 </script>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="css/index.css">

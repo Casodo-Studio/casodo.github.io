@@ -9,7 +9,8 @@ body {
 .boxed-container{
 	max-width: 90%;
 	margin: 0 auto;
-	box-shadow: 0 16px 48px rgba(32, 41, 50, 0.12)
+	box-shadow: 0 16px 48px rgba(32, 41, 50, 0.12);
+	height: 100%;
 }
 
 #logo {
